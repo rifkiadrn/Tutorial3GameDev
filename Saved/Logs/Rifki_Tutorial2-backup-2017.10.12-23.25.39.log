@@ -1,0 +1,1189 @@
+﻿Log file open, 10/12/17 16:14:56
+LogInit:Display: Running engine for game: Rifki_Tutorial2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-410443562) SRandInit(-410443562).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.110348
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal rar/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.12-09.14.57:021][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.12-09.14.57:021][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.12-09.14.57:081][  0]LogInit: Computer: HUMANS-PC
+[2017.10.12-09.14.57:081][  0]LogInit: User: rifkiadrn
+[2017.10.12-09.14.57:081][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.10.12-09.14.57:081][  0]LogInit: High frequency timer resolution =2.143472 MHz
+[2017.10.12-09.14.57:082][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.10.12-09.14.57:082][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.12-09.14.57:082][  0]LogMemory: Process Physical Memory: 273.21 MB used, 273.21 MB peak
+[2017.10.12-09.14.57:082][  0]LogMemory: Process Virtual Memory: 266.62 MB used, 266.62 MB peak
+[2017.10.12-09.14.57:082][  0]LogMemory: Physical Memory: 4266.24 MB used,  3825.48 MB free, 8091.72 MB total
+[2017.10.12-09.14.57:082][  0]LogMemory: Virtual Memory: 642.16 MB used,  3825.48 MB free, 134217728.00 MB total
+[2017.10.12-09.14.57:389][  0]LogInit: Using OS detected language (en-US).
+[2017.10.12-09.14.57:389][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.12-09.14.57:461][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.12-09.15.01:413][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.12-09.15.01:446][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 840M' (Feature Level 11_0)
+[2017.10.12-09.15.01:446][  0]LogD3D11RHI:       2019/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.12-09.15.01:453][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2017.10.12-09.15.01:453][  0]LogD3D11RHI:       128/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.10.12-09.15.01:455][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.12-09.15.01:455][  0]LogD3D11RHI:       0/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.12-09.15.01:455][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.12-09.15.01:460][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.12-09.15.01:460][  0]LogD3D11RHI:     GPU DeviceId: 0x1341 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.12-09.15.01:460][  0]LogWindows: EnumDisplayDevices:
+[2017.10.12-09.15.01:461][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2017.10.12-09.15.01:461][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2017.10.12-09.15.01:461][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2017.10.12-09.15.01:462][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.10.12-09.15.01:462][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 840M
+[2017.10.12-09.15.01:462][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.10.12-09.15.01:462][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.10.12-09.15.01:462][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.12-09.15.01:484][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.12-09.15.01:505][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.12-09.15.01:506][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Intermediate/Shaders/WorkingDirectory/11172/).
+[2017.10.12-09.15.01:506][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/rifkiadrn/AppData/Local/Temp/UnrealShaderWorkingDir/A0064E9C4D88AE7B86550CB7D07AAADD/'.
+[2017.10.12-09.15.01:506][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.12-09.15.04:431][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.12-09.15.04:540][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.12-09.15.04:625][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.12-09.15.04:723][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.12-09.15.04:878][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.12-09.15.04:965][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.12-09.15.05:060][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.12-09.15.05:142][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.12-09.15.05:215][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.12-09.15.05:306][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.12-09.15.05:381][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.12-09.15.05:467][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.12-09.15.05:554][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.12-09.15.05:633][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.12-09.15.05:735][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.12-09.15.05:922][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.12-09.15.05:922][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.12-09.15.06:005][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.12-09.15.06:154][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.12-09.15.06:207][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.12-09.15.06:296][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.12-09.15.06:392][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.12-09.15.06:486][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.12-09.15.06:590][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.12-09.15.06:590][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.12-09.15.07:629][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.12-09.15.07:746][  0]LogDerivedDataCache: Loaded boot cache 0.12s 90MB C:/Users/rifkiadrn/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.12-09.15.07:747][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/rifkiadrn/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.12-09.15.07:747][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.12-09.15.07:747][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.12-09.15.07:747][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.12-09.15.07:747][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.12-09.15.07:781][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.12-09.15.07:793][  0]LogDerivedDataCache: Using Local data cache path C:/Users/rifkiadrn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.12-09.15.07:810][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.12-09.15.07:811][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.12-09.15.07:831][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.12-09.15.07:831][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.12-09.15.08:681][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.12-09.15.08:860][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.12-09.15.09:155][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.12-09.15.09:241][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.12-09.15.09:321][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.12-09.15.09:321][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.12-09.15.09:321][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.12-09.15.10:929][  0]LogNetVersion: Rifki_Tutorial2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 699179107)
+[2017.10.12-09.15.11:043][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
+[2017.10.12-09.15.11:295][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.199885 seconds
+[2017.10.12-09.15.11:304][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.12-09.15.11:304][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.10.12-09.15.11:304][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.12-09.15.11:433][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.12-09.15.18:235][  0]LogWmfMedia: Failed to load mf.dll
+[2017.10.12-09.15.18:235][  0]LogWmfMedia: Failed to load required Windows Media Foundation libraries
+[2017.10.12-09.15.18:326][  0]LogWindowsMoviePlayer: Could not load mf.dll. Library not found.
+[2017.10.12-09.15.18:327][  0]LogWindowsMoviePlayer: Could not load mfplat.dll. Library not found.
+[2017.10.12-09.15.18:328][  0]LogWindowsMoviePlayer: Could not load mfplay.dll. Library not found.
+[2017.10.12-09.15.19:199][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.12-09.15.19:265][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.12-09.15.20:248][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.12-09.15.21:081][  0]SourceControl: Info Source control is disabled
+[2017.10.12-09.15.21:209][  0]SourceControl: Info Source control is disabled
+[2017.10.12-09.15.21:300][  0]SourceControl: Info Source control is disabled
+[2017.10.12-09.15.21:383][  0]SourceControl: Info Source control is disabled
+[2017.10.12-09.15.22:610][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.12-09.15.23:671][  0]LogEngine: Initializing Engine...
+[2017.10.12-09.15.23:672][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.12-09.15.24:123][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.12-09.15.24:123][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.12-09.15.24:367][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.12-09.15.24:402][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-09.15.24:417][  0]LogInit: FAudioDevice initialized.
+[2017.10.12-09.15.24:475][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/rifkiadrn/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.12-09.15.24:491][  0]LogInit: Texture streaming: Enabled
+[2017.10.12-09.15.24:662][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.12-09.15.25:040][  0]LogInit: Transaction tracking system initialized
+[2017.10.12-09.15.25:541][  0]BlueprintLog: New page: Editor Load
+[2017.10.12-09.15.27:229][  0]LocalizationService: Info Localization service is disabled
+[2017.10.12-09.15.28:551][  0]LogConsoleResponse:Display: 
+[2017.10.12-09.15.29:179][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.12-09.15.29:179][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.12-09.15.29:671][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/' took 0.03s
+[2017.10.12-09.15.31:202][  0]SourceControl: Info Source control is disabled
+[2017.10.12-09.15.31:203][  0]Cmd: MAP LOAD FILE="../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.12-09.15.31:221][  0]LightingResults: New page: Lighting Build
+[2017.10.12-09.15.31:301][  0]MapCheck: New page: Map Check
+[2017.10.12-09.15.31:301][  0]LightingResults: New page: Lighting Build
+[2017.10.12-09.15.32:260][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.10.12-09.15.32:267][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.12-09.15.32:299][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.12-09.15.32:368][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.864ms to complete.
+[2017.10.12-09.15.32:368][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 1.165
+[2017.10.12-09.15.32:433][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.12-09.15.32:776][  0]LogCollectionManager: Loaded 0 collections in 0.003186 seconds
+[2017.10.12-09.15.32:892][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Collections/' took 0.01s
+[2017.10.12-09.15.32:892][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/Developers/rifkiadrn/Collections/' took 0.01s
+[2017.10.12-09.15.32:892][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/Collections/' took 0.01s
+[2017.10.12-09.15.32:892][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.10.12-09.15.32:905][  0]LogContentBrowser: Native class hierarchy populated in 0.0128 seconds. Added 2329 classes and 491 folders.
+[2017.10.12-09.15.33:027][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.10.12-09.15.35:800][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.10.12-09.15.35:923][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.10.12-09.15.35:987][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.12-09.15.36:019][  0]LogSlate: Took 0.008431 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.12-09.15.36:027][  0]LogSlate: Took 0.004564 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.12-09.15.36:044][  0]LogSlate: Took 0.010257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.12-09.15.36:407][  0]LogRenderer: Reallocating scene render targets to support 856x372 NumSamples 1 (Frame:1).
+[2017.10.12-09.15.36:557][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.12-09.15.36:668][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.10.12-09.15.36:669][  0]LogLoad: (Engine Initialization) Total time: 44.13 seconds
+[2017.10.12-09.15.36:669][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.15 seconds
+[2017.10.12-09.15.36:669][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.12-09.15.36:679][  0]LogOcInput: OculusInput pre-init called
+[2017.10.12-09.15.36:679][  0]LogHMD: Starting GearVRController plugin
+[2017.10.12-09.15.36:697][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.12-09.15.36:823][  0]LogSlate: Took 0.025853 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.12-09.15.36:852][  1]LogAssetRegistry: Asset discovery search completed in 25.8309 seconds
+[2017.10.12-09.15.36:856][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.12-09.15.36:856][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
+[2017.10.12-09.16.11:885][983]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.12-09.16.12:541][983]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.12-09.16.12:743][983]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2017.10.12-09.16.57:423][998]LogSlate: Took 0.021106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.12-09.17.47:216][447]LogSlate: Took 0.020612 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.12-09.18.01:159][750]LogRenderer: Reallocating scene render targets to support 856x588 NumSamples 1 (Frame:1).
+[2017.10.12-09.25.28:149][735]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.12-09.25.37:270][762]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.066
+[2017.10.12-09.25.37:336][762]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP] ([1] browsable assets)...
+[2017.10.12-09.25.37:336][762]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP]
+[2017.10.12-09.25.37:448][762]LogSavePackage: Save=19.57ms
+[2017.10.12-09.25.37:448][762]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP_Auto1424A04A54ADD7FBD529B4CB3FF15C242.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP_Auto1.uasset'
+[2017.10.12-09.25.37:450][762]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP_Auto1.uasset
+[2017.10.12-09.25.37:450][762]LogFileHelpers: Auto-saving content packages took 0.180
+[2017.10.12-09.35.55:576][337]LogSlate: Took 0.046106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.10.12-09.38.17:169][688]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.057
+[2017.10.12-09.38.17:173][688]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP] ([1] browsable assets)...
+[2017.10.12-09.38.17:173][688]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP]
+[2017.10.12-09.38.17:215][688]LogSavePackage: Save=26.88ms
+[2017.10.12-09.38.17:215][688]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP_Auto20388BC454EA506A74F3C4CBABC0238C1.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP_Auto2.uasset'
+[2017.10.12-09.38.17:217][688]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP_Auto2.uasset
+[2017.10.12-09.38.17:218][688]LogFileHelpers: Auto-saving content packages took 0.047
+[2017.10.12-09.38.24:134][868]BlueprintLog: New page: Compile MovingPlatformBP
+[2017.10.12-09.38.57:948][728]BlueprintLog: New page: Compile MovingPlatformBP
+[2017.10.12-09.39.01:391][809]LogSavePackage: Save=21.54ms
+[2017.10.12-09.39.01:391][809]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBPC61ECDCB46B485291032AE831CBB4185.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-09.39.01:400][809]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-09.46.09:553][796]LogSavePackage: Save=26.49ms
+[2017.10.12-09.46.09:553][796]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP9988B34344577B28F41450B6C1ED2662.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-09.46.09:558][796]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-09.50.29:484][870]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.048
+[2017.10.12-09.50.29:486][870]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP] ([1] browsable assets)...
+[2017.10.12-09.50.29:486][870]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP]
+[2017.10.12-09.50.29:524][870]LogSavePackage: Save=31.93ms
+[2017.10.12-09.50.29:524][870]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP_Auto3B529850044A2CD565C6A0189CAB8FD95.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP_Auto3.uasset'
+[2017.10.12-09.50.29:525][870]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP_Auto3.uasset
+[2017.10.12-09.50.29:525][870]LogFileHelpers: Auto-saving content packages took 0.040
+[2017.10.12-09.51.55:640][481]LogEditorTransaction: Undo Promote To Variable
+[2017.10.12-09.52.26:346][163]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2017.10.12-09.52.26:825][189]LogEditorTransaction: Undo Promote To Variable
+[2017.10.12-09.53.33:743][968]LogEditorTransaction: Undo Add Node
+[2017.10.12-09.55.10:001][635]LogSavePackage: Save=35.83ms
+[2017.10.12-09.55.10:001][635]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP4D58BC7E45BBE1341C1E2F93DED9C8D7.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-09.55.10:005][635]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.00.40:229][879]Cmd: TRANSACTION UNDO
+[2017.10.12-10.00.40:229][879]LogEditorTransaction: Undo Add Node
+[2017.10.12-10.00.41:546][955]LogEditorTransaction: Redo Add Node
+[2017.10.12-10.01.08:121][542]LogSavePackage: Save=49.61ms
+[2017.10.12-10.01.08:121][542]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP2DE2C37C4612DA1D2C55A090CE5C0899.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.01.08:125][542]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.02.37:505][221]LogEditorTransaction: Undo Create Pin Link
+[2017.10.12-10.02.38:149][266]LogEditorTransaction: Undo Create Pin Link
+[2017.10.12-10.02.38:630][300]LogEditorTransaction: Undo Create Pin Link
+[2017.10.12-10.02.40:387][426]LogEditorTransaction: Undo Create Pin Link
+[2017.10.12-10.02.40:658][445]LogEditorTransaction: Undo Create Pin Link
+[2017.10.12-10.02.40:927][464]LogEditorTransaction: Undo Create Pin Link
+[2017.10.12-10.02.41:125][478]LogEditorTransaction: Undo Create Pin Link
+[2017.10.12-10.02.41:310][491]LogEditorTransaction: Undo Create Pin Link
+[2017.10.12-10.02.41:494][504]LogEditorTransaction: Undo Create Pin Link
+[2017.10.12-10.03.43:787][857]LogEditorTransaction: Undo Add Node
+[2017.10.12-10.04.30:940][278]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.049
+[2017.10.12-10.04.30:943][278]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP] ([1] browsable assets)...
+[2017.10.12-10.04.30:943][278]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP]
+[2017.10.12-10.04.30:994][278]LogSavePackage: Save=46.59ms
+[2017.10.12-10.04.30:994][278]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP_Auto44ED8AD3C459BFA1EC2026BAA6837D856.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP_Auto4.uasset'
+[2017.10.12-10.04.30:996][278]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP_Auto4.uasset
+[2017.10.12-10.04.30:996][278]LogFileHelpers: Auto-saving content packages took 0.055
+[2017.10.12-10.05.34:117][726]BlueprintLog: New page: Collapse to Macro
+[2017.10.12-10.07.43:220][491]BlueprintLog: New page: Collapse to Macro
+[2017.10.12-10.09.52:475][541]BlueprintLog: New page: Compile MovingPlatformBP
+[2017.10.12-10.26.06:128][ 45]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.066
+[2017.10.12-10.26.06:131][ 45]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP] ([1] browsable assets)...
+[2017.10.12-10.26.06:131][ 45]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP]
+[2017.10.12-10.26.06:226][ 45]LogSavePackage: Save=74.96ms
+[2017.10.12-10.26.06:226][ 45]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP_Auto573B6C0C94F155AD3F066E88F4C8357C7.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP_Auto5.uasset'
+[2017.10.12-10.26.06:228][ 45]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP_Auto5.uasset
+[2017.10.12-10.26.06:228][ 45]LogFileHelpers: Auto-saving content packages took 0.099
+[2017.10.12-10.29.34:172][380]BlueprintLog: New page: Compile MovingPlatformBP
+[2017.10.12-10.29.38:009][632]BlueprintLog: New page: Compile MovingPlatformBP
+[2017.10.12-10.29.52:619][899]LogEditorTransaction: Undo Delete current selection
+[2017.10.12-10.29.52:958][918]LogEditorTransaction: Undo Move Node
+[2017.10.12-10.29.53:441][949]LogEditorTransaction: Undo Add Node
+[2017.10.12-10.29.53:631][960]LogEditorTransaction: Undo Move Node
+[2017.10.12-10.29.53:876][975]LogEditorTransaction: Undo Edit Speed
+[2017.10.12-10.29.54:279][  1]LogEditorTransaction: Undo Change Parameter Type
+[2017.10.12-10.29.54:689][ 27]LogEditorTransaction: Undo Rename Variable
+[2017.10.12-10.29.55:064][ 51]LogEditorTransaction: Undo Add Variable
+[2017.10.12-10.29.55:454][ 76]LogEditorTransaction: Undo Remove Variable
+[2017.10.12-10.29.55:816][ 99]LogEditorTransaction: Undo Add Variable
+[2017.10.12-10.29.56:178][122]LogEditorTransaction: Undo Rename Function
+[2017.10.12-10.29.56:545][145]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2017.10.12-10.29.56:957][171]LogEditorTransaction: Undo Move Nodes
+[2017.10.12-10.29.58:132][250]LogEditorTransaction: Undo Move Nodes
+[2017.10.12-10.29.58:519][275]LogEditorTransaction: Undo Move Nodes
+[2017.10.12-10.29.58:902][299]LogEditorTransaction: Undo Move Nodes
+[2017.10.12-10.29.59:247][321]LogEditorTransaction: Undo Move Nodes
+[2017.10.12-10.29.59:523][338]LogEditorTransaction: Undo Add Node
+[2017.10.12-10.29.59:996][369]LogEditorTransaction: Undo Move Node
+[2017.10.12-10.30.00:948][433]LogEditorTransaction: Undo Rename Function
+[2017.10.12-10.30.01:364][460]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2017.10.12-10.30.01:660][478]LogEditorTransaction: Undo Create Pin Link
+[2017.10.12-10.30.02:998][568]LogEditorTransaction: Redo Create Pin Link
+[2017.10.12-10.30.03:916][629]LogEditorTransaction: Undo Create Pin Link
+[2017.10.12-10.30.04:453][664]LogEditorTransaction: Redo Create Pin Link
+[2017.10.12-10.30.05:006][700]LogEditorTransaction: Redo Collapses selected nodes into a single node
+[2017.10.12-10.30.05:571][737]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2017.10.12-10.30.23:997][155]BlueprintLog: New page: Collapse to Macro
+[2017.10.12-10.30.58:586][896]BlueprintLog: New page: Compile MovingPlatformBP
+[2017.10.12-10.32.12:091][768]Cmd: TRANSACTION UNDO
+[2017.10.12-10.32.12:091][768]LogEditorTransaction: Undo Add In Parameter
+[2017.10.12-10.32.27:192][867]LogEditorTransaction: Undo Create Pin Link
+[2017.10.12-10.32.29:436][ 22]LogEditorTransaction: Redo Create Pin Link
+[2017.10.12-10.32.38:282][635]LogEditorTransaction: Undo Create Pin Link
+[2017.10.12-10.32.38:658][661]LogEditorTransaction: Undo Add Out Parameter
+[2017.10.12-10.32.42:589][931]BlueprintLog: New page: Compile MovingPlatformBP
+[2017.10.12-10.34.29:172][616]BlueprintLog: New page: Collapse to Macro
+[2017.10.12-10.34.39:747][348]BlueprintLog: New page: Compile MovingPlatformBP
+[2017.10.12-10.35.18:290][245]BlueprintLog: New page: Compile MovingPlatformBP
+[2017.10.12-10.35.24:202][628]BlueprintLog: New page: Compile MovingPlatformBP
+[2017.10.12-10.35.25:751][705]LogSavePackage: Save=56.06ms
+[2017.10.12-10.35.25:751][705]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP94E2135E4B6AB631AFE4FE9D25A13FAE.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.35.25:755][705]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.36.38:843][427]LogSavePackage: Save=52.36ms
+[2017.10.12-10.36.38:843][427]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBPF6335D41420D1A7C542F8FBFE4BFF658.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.36.38:848][427]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.36.42:088][654]BlueprintLog: New page: Compile MovingPlatformBP
+[2017.10.12-10.37.25:463][295]LogSavePackage: Save=50.83ms
+[2017.10.12-10.37.25:463][295]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBPF9824493458B2A4E8DE792815871DDE4.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.37.25:471][295]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.38.06:209][985]LogSavePackage: Save=49.76ms
+[2017.10.12-10.38.06:209][985]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP0636A8024727AF8E25FEC3BBD29691DE.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.38.06:214][985]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.38.40:419][916]LogSavePackage: Save=51.83ms
+[2017.10.12-10.38.40:419][916]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP473E0F9C431F0A4E292C479F17FF8683.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.38.40:424][916]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.41.22:809][716]LogEditorTransaction: Undo Add Node
+[2017.10.12-10.41.45:808][281]LogSavePackage: Save=62.08ms
+[2017.10.12-10.41.45:808][281]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBPE6B9258F4B0EAD992602B2BAF246E67F.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.41.45:812][281]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.44.14:387][867]LogSavePackage: Save=64.70ms
+[2017.10.12-10.44.14:387][867]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP1FA753B74C11E7294FA74F92BC9DBD86.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.44.14:397][867]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.45.15:783][963]LogSavePackage: Save=57.12ms
+[2017.10.12-10.45.15:783][963]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP9C50162E410D7766F3FF35ABF742DA5B.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.45.15:788][963]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.45.28:759][451]LogSavePackage: Save=58.85ms
+[2017.10.12-10.45.28:759][451]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP5CE38A6D4794AEEB05695C82BC392B1B.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.45.28:764][451]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.45.37:469][815]LogSavePackage: Save=58.01ms
+[2017.10.12-10.45.37:469][815]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBPEDC5E11B447EC9E10DE92590896113FB.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.45.37:474][815]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.45.53:957][455]LogSavePackage: Save=59.17ms
+[2017.10.12-10.45.53:957][455]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBPE44A802A48E94811CF2E509B1FA1E7D4.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.45.53:963][455]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.47.16:841][608]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.045
+[2017.10.12-10.47.16:843][608]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP] ([1] browsable assets)...
+[2017.10.12-10.47.16:843][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP]
+[2017.10.12-10.47.16:921][608]LogSavePackage: Save=64.89ms
+[2017.10.12-10.47.16:921][608]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP_Auto6F3891D4043643E093AA0D483F68C139B.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP_Auto6.uasset'
+[2017.10.12-10.47.16:923][608]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/MovingPlatformBP_Auto6.uasset
+[2017.10.12-10.47.16:923][608]LogFileHelpers: Auto-saving content packages took 0.081
+[2017.10.12-10.47.50:094][601]LogSavePackage: Save=65.71ms
+[2017.10.12-10.47.50:094][601]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP067EA22E4F0B275119207EBFBFC947FB.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.47.50:099][601]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.48.06:609][208]LogEditorTransaction: Undo Add Node
+[2017.10.12-10.48.49:941][624]LogEditorTransaction: Undo Add Node
+[2017.10.12-10.49.07:742][431]LogSavePackage: Save=65.11ms
+[2017.10.12-10.49.07:743][431]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP45C02E2E4042BD1F6AA565B3EA191260.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.49.07:748][431]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.49.14:547][942]LogEditorTransaction: Undo Move Node
+[2017.10.12-10.49.15:611][ 12]LogEditorTransaction: Undo Create Pin Link
+[2017.10.12-10.49.16:528][ 65]LogSavePackage: Save=62.22ms
+[2017.10.12-10.49.16:528][ 65]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBPE46F2AD941FEA5664AB1F28CD11E1746.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.49.16:533][ 65]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.49.32:426][150]LogSavePackage: Save=63.06ms
+[2017.10.12-10.49.32:426][150]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP88D15AE04E36F104C2E5B08640C9107F.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.49.32:428][150]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.50.19:499][ 10]LogSavePackage: Save=113.16ms
+[2017.10.12-10.50.19:499][ 10]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBPEF0E50FE4C1072F2D0DFCC85CF44CD92.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.50.19:504][ 10]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.50.32:207][693]Cmd: TRANSACTION UNDO
+[2017.10.12-10.50.32:207][693]LogEditorTransaction: Undo Add Node
+[2017.10.12-10.50.33:416][772]LogEditorTransaction: Redo Add Node
+[2017.10.12-10.50.50:914][853]LogSavePackage: Save=133.89ms
+[2017.10.12-10.50.50:914][853]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP1B82792B48A57ED10FF789B8E8DE33FF.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.50.50:919][853]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.51.19:236][  9]LogSavePackage: Save=67.35ms
+[2017.10.12-10.51.19:236][  9]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBPD9489C4C4FB996F48E5BEEB101B742BC.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.51.19:242][  9]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.53.08:705][558]LogSavePackage: Save=72.85ms
+[2017.10.12-10.53.08:705][558]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBPF480F7D04C689A0BD5A5B185FD225927.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.53.08:711][558]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.53.13:985][913]BlueprintLog: New page: Compile MovingPlatformBP
+[2017.10.12-10.53.19:751][324]LogSavePackage: Save=68.15ms
+[2017.10.12-10.53.19:751][324]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP5E79D36A4FD5AACA515A34B570ACA9AB.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.53.19:753][324]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.54.03:285][740]LogSavePackage: Save=69.93ms
+[2017.10.12-10.54.03:285][740]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP7D0842864977B3618CA9EC9442ED1B0C.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.54.03:288][740]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.54.11:571][317]LogSavePackage: Save=70.83ms
+[2017.10.12-10.54.11:571][317]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBPA07AA3F64EC8B907AE437AA39D1BB080.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.54.11:573][317]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.54.17:443][778]LogAIModule: Creating AISystem for world Level
+[2017.10.12-10.54.17:489][778]Cmd: MAP LOAD FILE="../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.12-10.54.17:489][778]LightingResults: New page: Lighting Build
+[2017.10.12-10.54.17:498][778]LoadErrors: New page: Loading map: Level.umap
+[2017.10.12-10.54.17:500][778]MapCheck: New page: Map Check
+[2017.10.12-10.54.17:500][778]LightingResults: New page: Lighting Build
+[2017.10.12-10.54.17:554][778]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.12-10.54.17:618][778]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.12-10.54.17:688][778]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.118ms to complete.
+[2017.10.12-10.54.17:688][778]LogFileHelpers: Loading map 'Level' took 0.203
+[2017.10.12-10.56.55:038][450]LogSavePackage: Save=31.11ms
+[2017.10.12-10.56.55:038][450]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Level5C3F117F460E927023C9E68326BD22EF.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap'
+[2017.10.12-10.56.55:042][450]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap
+[2017.10.12-10.56.56:580][588]LogSavePackage: Save=27.07ms
+[2017.10.12-10.56.56:580][588]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Level3769F37C434B6CBD6FF11C8712CEB250.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap'
+[2017.10.12-10.56.56:582][588]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap
+[2017.10.12-10.57.19:525][238]Cmd: MAP LOAD FILE="../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.12-10.57.19:525][238]LightingResults: New page: Lighting Build
+[2017.10.12-10.57.19:526][238]LoadErrors: New page: Loading map: Level.umap
+[2017.10.12-10.57.19:527][238]MapCheck: New page: Map Check
+[2017.10.12-10.57.19:527][238]LightingResults: New page: Lighting Build
+[2017.10.12-10.57.19:573][238]LogAIModule: Creating AISystem for world Level
+[2017.10.12-10.57.19:578][238]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.12-10.57.19:645][238]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.12-10.57.19:716][238]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.909ms to complete.
+[2017.10.12-10.57.19:717][238]LogFileHelpers: Loading map 'Level' took 0.192
+[2017.10.12-10.57.21:825][440]Cmd: MAP LOAD FILE="../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.12-10.57.21:825][440]LightingResults: New page: Lighting Build
+[2017.10.12-10.57.21:825][440]LoadErrors: New page: Loading map: Level.umap
+[2017.10.12-10.57.21:826][440]MapCheck: New page: Map Check
+[2017.10.12-10.57.21:826][440]LightingResults: New page: Lighting Build
+[2017.10.12-10.57.21:868][440]LogAIModule: Creating AISystem for world Level
+[2017.10.12-10.57.21:871][440]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.12-10.57.21:938][440]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.12-10.57.22:007][440]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.212ms to complete.
+[2017.10.12-10.57.22:008][440]LogFileHelpers: Loading map 'Level' took 0.184
+[2017.10.12-10.58.12:105][693]LogSavePackage: Save=28.26ms
+[2017.10.12-10.58.12:105][693]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Level07BCDFD944A9EFA53E25B3B0E656CFFD.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap'
+[2017.10.12-10.58.12:110][693]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap
+[2017.10.12-10.59.18:668][590]BlueprintLog: New page: Compile MovingPlatformBP
+[2017.10.12-10.59.20:289][659]LogSavePackage: Save=154.28ms
+[2017.10.12-10.59.20:289][659]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP1FADF82142E5164429D57ABECEFE1DCC.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-10.59.20:294][659]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-10.59.25:819][ 75]LogSavePackage: Save=28.56ms
+[2017.10.12-10.59.25:819][ 75]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Level46F312CF45AC0C866F6F5C9274E20C4A.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap'
+[2017.10.12-10.59.25:825][ 75]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap
+[2017.10.12-10.59.28:996][383]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.12-10.59.29:170][383]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-10.59.29:171][383]PIE: New page: PIE session: Level (Oct 13, 2017, 12:59:29 AM)
+[2017.10.12-10.59.29:171][383]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level
+[2017.10.12-10.59.29:172][383]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001623s)
+[2017.10.12-10.59.29:174][383]LogAIModule: Creating AISystem for world Level
+[2017.10.12-10.59.29:175][383]LogPlayLevel: PIE: World Init took: (0.002419s)
+[2017.10.12-10.59.29:175][383]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Blueprints/Level.Level to /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level (0.004261s)
+[2017.10.12-10.59.29:212][383]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-10.59.29:226][383]LogInit: FAudioDevice initialized.
+[2017.10.12-10.59.29:272][383]LogLoad: Game class is 'MyGameMode_C'
+[2017.10.12-10.59.29:275][383]LogWorld: Bringing World /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2017.10.12-17.59.29
+[2017.10.12-10.59.29:276][383]LogWorld: Bringing up level for play took: 0.003237
+[2017.10.12-10.59.29:349][383]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0017 seconds. Added 11 classes and 0 folders.
+[2017.10.12-10.59.29:351][383]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level 1.08
+[2017.10.12-10.59.43:844][  3]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.12-10.59.43:864][  3]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-10.59.43:865][  3]PIE: New page: PIE session: Level (Oct 13, 2017, 12:59:43 AM)
+[2017.10.12-10.59.43:865][  3]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level
+[2017.10.12-10.59.43:867][  3]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001816s)
+[2017.10.12-10.59.43:867][  3]LogAIModule: Creating AISystem for world Level
+[2017.10.12-10.59.43:868][  3]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2017.10.12-10.59.43:868][  3]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Blueprints/Level.Level to /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level (0.002948s)
+[2017.10.12-10.59.43:907][  3]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-10.59.43:918][  3]LogInit: FAudioDevice initialized.
+[2017.10.12-10.59.43:950][  3]LogLoad: Game class is 'MyGameMode_C'
+[2017.10.12-10.59.43:952][  3]LogWorld: Bringing World /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2017.10.12-17.59.43
+[2017.10.12-10.59.43:953][  3]LogWorld: Bringing up level for play took: 0.002732
+[2017.10.12-10.59.43:955][  3]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level -0.316
+[2017.10.12-11.00.36:377][  4]Cmd: MAP LOAD FILE="../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.12-11.00.36:378][  4]LightingResults: New page: Lighting Build
+[2017.10.12-11.00.36:378][  4]LoadErrors: New page: Loading map: Level.umap
+[2017.10.12-11.00.36:379][  4]MapCheck: New page: Map Check
+[2017.10.12-11.00.36:379][  4]LightingResults: New page: Lighting Build
+[2017.10.12-11.00.36:425][  4]LogAIModule: Creating AISystem for world Level
+[2017.10.12-11.00.36:430][  4]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.12-11.00.36:496][  4]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.12-11.00.36:570][  4]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.854ms to complete.
+[2017.10.12-11.00.36:571][  4]LogFileHelpers: Loading map 'Level' took 0.195
+[2017.10.12-11.00.38:344][177]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.00.42:133][574]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.00.54:633][871]LogSavePackage: Save=29.58ms
+[2017.10.12-11.00.54:633][871]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/LevelA178FC0D42D10CB142A6B7BD676EC01C.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap'
+[2017.10.12-11.00.54:638][871]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap
+[2017.10.12-11.00.56:912][ 96]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.12-11.00.56:942][ 96]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-11.00.56:942][ 96]PIE: New page: PIE session: Level (Oct 13, 2017, 1:00:56 AM)
+[2017.10.12-11.00.56:942][ 96]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level
+[2017.10.12-11.00.56:944][ 96]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001785s)
+[2017.10.12-11.00.56:944][ 96]LogAIModule: Creating AISystem for world Level
+[2017.10.12-11.00.56:945][ 96]LogPlayLevel: PIE: World Init took: (0.000927s)
+[2017.10.12-11.00.56:945][ 96]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Blueprints/Level.Level to /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level (0.002966s)
+[2017.10.12-11.00.56:982][ 96]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-11.00.56:993][ 96]LogInit: FAudioDevice initialized.
+[2017.10.12-11.00.57:029][ 96]LogLoad: Game class is 'MyGameMode_C'
+[2017.10.12-11.00.57:031][ 96]LogWorld: Bringing World /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2017.10.12-18.00.57
+[2017.10.12-11.00.57:032][ 96]LogWorld: Bringing up level for play took: 0.002979
+[2017.10.12-11.00.57:034][ 96]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level 0.763
+[2017.10.12-11.02.08:317][696]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.02.12:664][906]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.02.13:263][934]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.02.13:338][936]LogEditorViewport: Clicking on Component (LMB): BillboardComponent (Billboard)
+[2017.10.12-11.02.22:983][386]LogSavePackage: Save=32.55ms
+[2017.10.12-11.02.22:983][386]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Level9FAAE75347BD9D3F33B2B3A3F83300E2.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap'
+[2017.10.12-11.02.22:988][386]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap
+[2017.10.12-11.02.24:904][461]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.12-11.02.24:943][461]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-11.02.24:943][461]PIE: New page: PIE session: Level (Oct 13, 2017, 1:02:24 AM)
+[2017.10.12-11.02.24:943][461]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level
+[2017.10.12-11.02.24:945][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002371s)
+[2017.10.12-11.02.24:946][461]LogAIModule: Creating AISystem for world Level
+[2017.10.12-11.02.24:947][461]LogPlayLevel: PIE: World Init took: (0.001087s)
+[2017.10.12-11.02.24:947][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Blueprints/Level.Level to /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level (0.003735s)
+[2017.10.12-11.02.24:995][461]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-11.02.25:008][461]LogInit: FAudioDevice initialized.
+[2017.10.12-11.02.25:045][461]LogLoad: Game class is 'MyGameMode_C'
+[2017.10.12-11.02.25:047][461]LogWorld: Bringing World /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level up for play (max tick rate 60) at 2017.10.12-18.02.25
+[2017.10.12-11.02.25:048][461]LogWorld: Bringing up level for play took: 0.002889
+[2017.10.12-11.02.25:050][461]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level 0.779
+[2017.10.12-11.02.41:784][320]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.02.42:374][345]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.02.52:907][841]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.02.53:440][864]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.02.53:522][866]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PlatformSprite)
+[2017.10.12-11.02.54:240][898]LogEditorViewport: Clicking on Component (LMB): BillboardComponent (Billboard)
+[2017.10.12-11.02.54:338][900]LogEditorViewport: Clicking on Actor (double click): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.02.54:764][919]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.02.54:859][922]LogEditorViewport: Clicking on Component (LMB): BillboardComponent (Billboard)
+[2017.10.12-11.03.02:222][263]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PlatformSprite)
+[2017.10.12-11.03.02:599][276]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PlatformSprite)
+[2017.10.12-11.03.07:828][519]LogEditorViewport: Clicking Background
+[2017.10.12-11.03.08:872][570]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.03.14:215][820]LogEditorViewport: Clicking Background
+[2017.10.12-11.03.18:275][ 20]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.03.19:718][ 86]LogEditorViewport: Clicking on Actor (context menu): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.03.24:718][300]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.03.28:384][475]Cmd: DUPLICATE
+[2017.10.12-11.03.28:384][475]Cmd: ACTOR DUPLICATE
+[2017.10.12-11.03.38:821][961]Cmd: TRANSACTION UNDO
+[2017.10.12-11.03.38:821][961]LogEditorTransaction: Undo Move Actors
+[2017.10.12-11.03.40:432][ 33]Cmd: TRANSACTION UNDO
+[2017.10.12-11.03.40:432][ 33]LogEditorTransaction: Undo Duplicate Actors
+[2017.10.12-11.03.43:195][158]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.03.43:900][189]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.03.43:977][191]LogEditorViewport: Clicking on Component (LMB): BillboardComponent (Billboard)
+[2017.10.12-11.03.45:561][264]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PlatformSprite)
+[2017.10.12-11.04.06:889][404]LogEditorViewport: Clicking Background
+[2017.10.12-11.04.10:761][624]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.04.10:852][626]LogEditorViewport: Clicking on Component (LMB): BillboardComponent (Billboard)
+[2017.10.12-11.04.19:774][117]LogEditorViewport: Clicking Background
+[2017.10.12-11.04.21:868][241]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.04.23:619][342]LogEditorViewport: Clicking Background
+[2017.10.12-11.04.24:998][423]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.04.25:060][424]LogEditorViewport: Clicking on Component (LMB): BillboardComponent (Billboard)
+[2017.10.12-11.04.30:784][763]LogEditorViewport: Clicking on Actor (LMB): KillZVolume (KillZVolume2)
+[2017.10.12-11.04.59:586][471]LogEditorViewport: Clicking Background
+[2017.10.12-11.05.28:252][165]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.05.48:018][232]LogEditorViewport: Clicking Background
+[2017.10.12-11.05.49:172][294]LogSavePackage: Save=28.35ms
+[2017.10.12-11.05.49:172][294]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Level21BAAF144D286CAFE13B79BEF4AC7B23.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap'
+[2017.10.12-11.05.49:182][294]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap
+[2017.10.12-11.05.50:204][344]LogSavePackage: Save=32.87ms
+[2017.10.12-11.05.50:204][344]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/LevelD9338D79488FE7B422681E80C8B2A78A.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap'
+[2017.10.12-11.05.50:207][344]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap
+[2017.10.12-11.08.02:646][110]BlueprintLog: New page: Compile MovingPlatformBP
+[2017.10.12-11.08.02:680][110]ImportText (/Script/Engine.KismetMathLibrary:VInterpTo_Constant.Current): Missing opening parenthesis: 
+[2017.10.12-11.08.02:680][110]ImportText (/Script/Engine.KismetMathLibrary:VInterpTo_Constant.Target): Missing opening parenthesis: 
+[2017.10.12-11.08.02:680][110]ImportText (/Script/Engine.KismetMathLibrary:EqualEqual_VectorVector.A): Missing opening parenthesis: 
+[2017.10.12-11.08.02:680][110]ImportText (/Script/Engine.KismetMathLibrary:EqualEqual_VectorVector.B): Missing opening parenthesis: 
+[2017.10.12-11.08.04:634][177]LogSavePackage: Save=69.78ms
+[2017.10.12-11.08.04:634][177]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP2AAC3CC344DBEC77B21608A1E5DC7EBB.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-11.08.04:640][177]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-11.08.09:788][438]LogSavePackage: Save=27.95ms
+[2017.10.12-11.08.09:788][438]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/LevelCE1864BD489AA858BECF8086647CF728.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap'
+[2017.10.12-11.08.09:793][438]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap
+[2017.10.12-11.08.11:453][534]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.12-11.08.11:478][534]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-11.08.11:478][534]PIE: New page: PIE session: Level (Oct 13, 2017, 1:08:11 AM)
+[2017.10.12-11.08.11:478][534]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level
+[2017.10.12-11.08.11:480][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001852s)
+[2017.10.12-11.08.11:481][534]LogAIModule: Creating AISystem for world Level
+[2017.10.12-11.08.11:481][534]LogPlayLevel: PIE: World Init took: (0.000944s)
+[2017.10.12-11.08.11:482][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Blueprints/Level.Level to /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level (0.003081s)
+[2017.10.12-11.08.11:520][534]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-11.08.11:531][534]LogInit: FAudioDevice initialized.
+[2017.10.12-11.08.11:564][534]LogLoad: Game class is 'MyGameMode_C'
+[2017.10.12-11.08.11:567][534]LogWorld: Bringing World /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level up for play (max tick rate 60) at 2017.10.12-18.08.11
+[2017.10.12-11.08.11:568][534]LogWorld: Bringing up level for play took: 0.002896
+[2017.10.12-11.08.11:570][534]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level -0.702
+[2017.10.12-11.08.28:237][428]LogEditorViewport: Clicking Background
+[2017.10.12-11.08.51:633][710]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.08.52:627][768]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.08.52:684][769]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PlatformSprite)
+[2017.10.12-11.09.11:772][775]LogEditorViewport: Clicking Background
+[2017.10.12-11.09.12:981][846]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.09.27:458][637]LogEditorViewport: Clicking Background
+[2017.10.12-11.09.28:783][715]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.09.45:648][679]LogSavePackage: Save=28.58ms
+[2017.10.12-11.09.45:648][679]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Level50C113444886F0E7341AC28957629C38.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap'
+[2017.10.12-11.09.45:653][679]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap
+[2017.10.12-11.09.49:532][908]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.12-11.09.49:554][908]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-11.09.49:554][908]PIE: New page: PIE session: Level (Oct 13, 2017, 1:09:49 AM)
+[2017.10.12-11.09.49:554][908]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level
+[2017.10.12-11.09.49:556][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001747s)
+[2017.10.12-11.09.49:557][908]LogAIModule: Creating AISystem for world Level
+[2017.10.12-11.09.49:557][908]LogPlayLevel: PIE: World Init took: (0.001079s)
+[2017.10.12-11.09.49:557][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Blueprints/Level.Level to /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level (0.003085s)
+[2017.10.12-11.09.49:597][908]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-11.09.49:608][908]LogInit: FAudioDevice initialized.
+[2017.10.12-11.09.49:642][908]LogLoad: Game class is 'MyGameMode_C'
+[2017.10.12-11.09.49:645][908]LogWorld: Bringing World /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level up for play (max tick rate 60) at 2017.10.12-18.09.49
+[2017.10.12-11.09.49:645][908]LogWorld: Bringing up level for play took: 0.003109
+[2017.10.12-11.09.49:647][908]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level -0.624
+[2017.10.12-11.11.53:528][196]BlueprintLog: New page: Compile MovingPlatformBP
+[2017.10.12-11.11.53:566][196]ImportText (/Script/Engine.KismetMathLibrary:VInterpTo_Constant.Current): Missing opening parenthesis: 
+[2017.10.12-11.11.55:173][256]LogSavePackage: Save=84.34ms
+[2017.10.12-11.11.55:173][256]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP53C965BC44E244E88B37EFA8654B861E.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-11.11.55:183][256]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-11.12.36:894][651]LogSavePackage: Save=78.78ms
+[2017.10.12-11.12.36:894][651]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBPF71BC16044DE900D9976E48FD1E9B2ED.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-11.12.36:899][651]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-11.12.47:759][115]LogSavePackage: Save=74.01ms
+[2017.10.12-11.12.47:759][115]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP3A99EFA34BCB67B2930D0E8D6B541110.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-11.12.47:763][115]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-11.12.48:985][170]BlueprintLog: New page: Compile MovingPlatformBP
+[2017.10.12-11.12.50:832][240]LogSavePackage: Save=75.36ms
+[2017.10.12-11.12.50:832][240]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP748265F846A231B16EC2C4A0DF5BC37E.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-11.12.50:834][240]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-11.12.56:490][518]LogSavePackage: Save=27.66ms
+[2017.10.12-11.12.56:490][518]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/LevelF912E4AA47E4FF17217D8AADF41F9837.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap'
+[2017.10.12-11.12.56:495][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap
+[2017.10.12-11.12.58:371][626]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.12-11.12.58:400][626]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-11.12.58:401][626]PIE: New page: PIE session: Level (Oct 13, 2017, 1:12:58 AM)
+[2017.10.12-11.12.58:401][626]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level
+[2017.10.12-11.12.58:403][626]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001920s)
+[2017.10.12-11.12.58:403][626]LogAIModule: Creating AISystem for world Level
+[2017.10.12-11.12.58:404][626]LogPlayLevel: PIE: World Init took: (0.000948s)
+[2017.10.12-11.12.58:404][626]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Blueprints/Level.Level to /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level (0.003167s)
+[2017.10.12-11.12.58:441][626]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-11.12.58:452][626]LogInit: FAudioDevice initialized.
+[2017.10.12-11.12.58:484][626]LogLoad: Game class is 'MyGameMode_C'
+[2017.10.12-11.12.58:487][626]LogWorld: Bringing World /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level up for play (max tick rate 60) at 2017.10.12-18.12.58
+[2017.10.12-11.12.58:488][626]LogWorld: Bringing up level for play took: 0.003278
+[2017.10.12-11.12.58:490][626]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level 0.219
+[2017.10.12-11.13.31:311][350]LogEditorViewport: Clicking Background
+[2017.10.12-11.13.35:736][614]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.13.51:678][464]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.13.54:296][613]LogSavePackage: Save=29.60ms
+[2017.10.12-11.13.54:296][613]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Level711260DD4F4B02CFEC348CA4AADAF6E5.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap'
+[2017.10.12-11.13.54:301][613]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap
+[2017.10.12-11.13.56:177][722]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.12-11.13.56:199][722]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-11.13.56:199][722]PIE: New page: PIE session: Level (Oct 13, 2017, 1:13:56 AM)
+[2017.10.12-11.13.56:200][722]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level
+[2017.10.12-11.13.56:202][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002251s)
+[2017.10.12-11.13.56:203][722]LogAIModule: Creating AISystem for world Level
+[2017.10.12-11.13.56:203][722]LogPlayLevel: PIE: World Init took: (0.000967s)
+[2017.10.12-11.13.56:203][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Blueprints/Level.Level to /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level (0.003501s)
+[2017.10.12-11.13.56:254][722]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-11.13.56:267][722]LogInit: FAudioDevice initialized.
+[2017.10.12-11.13.56:303][722]LogLoad: Game class is 'MyGameMode_C'
+[2017.10.12-11.13.56:306][722]LogWorld: Bringing World /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level up for play (max tick rate 60) at 2017.10.12-18.13.56
+[2017.10.12-11.13.56:307][722]LogWorld: Bringing up level for play took: 0.003573
+[2017.10.12-11.13.56:309][722]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level 0.038
+[2017.10.12-11.13.59:601][889]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.14.02:856][ 61]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.14.03:059][ 71]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PlatformSprite)
+[2017.10.12-11.14.03:259][ 80]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PlatformSprite)
+[2017.10.12-11.14.03:326][ 82]LogEditorViewport: Clicking on Actor (double click): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.14.04:006][120]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.14.04:107][124]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PlatformSprite)
+[2017.10.12-11.14.12:585][569]LogSavePackage: Save=28.31ms
+[2017.10.12-11.14.12:585][569]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Level0D48F5D84DD4D00DDC7C64BF77D51F15.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap'
+[2017.10.12-11.14.12:590][569]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap
+[2017.10.12-11.14.14:286][667]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.12-11.14.14:309][667]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-11.14.14:309][667]PIE: New page: PIE session: Level (Oct 13, 2017, 1:14:14 AM)
+[2017.10.12-11.14.14:309][667]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level
+[2017.10.12-11.14.14:311][667]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001980s)
+[2017.10.12-11.14.14:312][667]LogAIModule: Creating AISystem for world Level
+[2017.10.12-11.14.14:312][667]LogPlayLevel: PIE: World Init took: (0.001081s)
+[2017.10.12-11.14.14:313][667]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Blueprints/Level.Level to /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level (0.003353s)
+[2017.10.12-11.14.14:349][667]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-11.14.14:360][667]LogInit: FAudioDevice initialized.
+[2017.10.12-11.14.14:396][667]LogLoad: Game class is 'MyGameMode_C'
+[2017.10.12-11.14.14:399][667]LogWorld: Bringing World /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level up for play (max tick rate 60) at 2017.10.12-18.14.14
+[2017.10.12-11.14.14:400][667]LogWorld: Bringing up level for play took: 0.002954
+[2017.10.12-11.14.14:401][667]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level 0.131
+[2017.10.12-11.15.56:905][277]BlueprintLog: New page: Compile MovingPlatformBP
+[2017.10.12-11.15.59:473][346]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.12-11.15.59:521][346]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-11.15.59:521][346]PIE: New page: PIE session: Level (Oct 13, 2017, 1:15:59 AM)
+[2017.10.12-11.15.59:521][346]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level
+[2017.10.12-11.15.59:523][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002023s)
+[2017.10.12-11.15.59:524][346]LogAIModule: Creating AISystem for world Level
+[2017.10.12-11.15.59:524][346]LogPlayLevel: PIE: World Init took: (0.001129s)
+[2017.10.12-11.15.59:524][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Blueprints/Level.Level to /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level (0.003491s)
+[2017.10.12-11.15.59:570][346]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-11.15.59:583][346]LogInit: FAudioDevice initialized.
+[2017.10.12-11.15.59:623][346]LogLoad: Game class is 'MyGameMode_C'
+[2017.10.12-11.15.59:626][346]LogWorld: Bringing World /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level up for play (max tick rate 60) at 2017.10.12-18.15.59
+[2017.10.12-11.15.59:627][346]LogWorld: Bringing up level for play took: 0.003070
+[2017.10.12-11.15.59:628][346]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level -0.643
+[2017.10.12-11.16.06:285][626]LogSavePackage: Save=27.57ms
+[2017.10.12-11.16.06:285][626]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/LevelDD38A9544F5F2B2776D549B7AE4F52F2.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap'
+[2017.10.12-11.16.06:291][626]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap
+[2017.10.12-11.16.08:033][727]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.12-11.16.08:064][727]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-11.16.08:064][727]PIE: New page: PIE session: Level (Oct 13, 2017, 1:16:08 AM)
+[2017.10.12-11.16.08:064][727]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level
+[2017.10.12-11.16.08:066][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001784s)
+[2017.10.12-11.16.08:066][727]LogAIModule: Creating AISystem for world Level
+[2017.10.12-11.16.08:067][727]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2017.10.12-11.16.08:067][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Blueprints/Level.Level to /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level (0.002874s)
+[2017.10.12-11.16.08:104][727]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-11.16.08:115][727]LogInit: FAudioDevice initialized.
+[2017.10.12-11.16.08:150][727]LogLoad: Game class is 'MyGameMode_C'
+[2017.10.12-11.16.08:153][727]LogWorld: Bringing World /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level up for play (max tick rate 60) at 2017.10.12-18.16.08
+[2017.10.12-11.16.08:154][727]LogWorld: Bringing up level for play took: 0.003141
+[2017.10.12-11.16.08:155][727]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level -0.116
+[2017.10.12-11.16.37:848][414]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.16.50:670][ 14]Cmd: TRANSACTION UNDO
+[2017.10.12-11.16.50:670][ 14]LogEditorTransaction: Undo Move Actors
+[2017.10.12-11.16.51:074][ 36]Cmd: TRANSACTION UNDO
+[2017.10.12-11.16.51:074][ 36]LogEditorTransaction: Undo Clicking on Actors
+[2017.10.12-11.16.52:296][102]LogSavePackage: Save=28.58ms
+[2017.10.12-11.16.52:296][102]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Level206E513944423FC3564423A3D08A1ADA.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap'
+[2017.10.12-11.16.52:301][102]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap
+[2017.10.12-11.17.05:857][858]LogEditorViewport: Clicking Background
+[2017.10.12-11.20.06:221][ 32]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (spritesheet-32x-trans_TileMap)
+[2017.10.12-11.20.06:883][108]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (spritesheet-32x-trans_TileMap)
+[2017.10.12-11.20.07:719][205]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (spritesheet-32x-trans_TileMap)
+[2017.10.12-11.20.09:063][363]LogEditorViewport: Clicking Background
+[2017.10.12-11.20.13:994][940]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html
+[2017.10.12-11.20.45:161][123]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.20.51:313][852]LogEditorViewport: Clicking Background
+[2017.10.12-11.20.52:158][951]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.20.53:909][155]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.20.54:045][168]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PlatformSprite)
+[2017.10.12-11.20.57:887][619]LogEditorViewport: Clicking on Component (LMB): BillboardComponent (Billboard)
+[2017.10.12-11.20.58:783][721]LogEditorViewport: Clicking on Component (LMB): BillboardComponent (Billboard)
+[2017.10.12-11.20.59:216][770]LogEditorViewport: Clicking on Component (LMB): BillboardComponent (Billboard)
+[2017.10.12-11.21.02:070][ 83]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PlatformSprite)
+[2017.10.12-11.21.02:454][121]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PlatformSprite)
+[2017.10.12-11.21.09:773][941]LogEditorViewport: Clicking on Component (LMB): BillboardComponent (Billboard)
+[2017.10.12-11.21.16:451][692]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PlatformSprite)
+[2017.10.12-11.21.19:299][ 26]LogEditorViewport: Clicking on Component (LMB): BillboardComponent (Billboard)
+[2017.10.12-11.21.24:327][621]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PlatformSprite)
+[2017.10.12-11.21.25:490][753]LogEditorViewport: Clicking on Component (LMB): BillboardComponent (Billboard)
+[2017.10.12-11.21.37:764][191]LogEditorViewport: Clicking Background
+[2017.10.12-11.21.39:479][394]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.21.41:196][575]LogSavePackage: Save=28.46ms
+[2017.10.12-11.21.41:197][575]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Level447F7485408E3A0BF732F7BD8CC50293.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap'
+[2017.10.12-11.21.41:201][575]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap
+[2017.10.12-11.21.42:864][751]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.12-11.21.42:884][751]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-11.21.42:885][751]PIE: New page: PIE session: Level (Oct 13, 2017, 1:21:42 AM)
+[2017.10.12-11.21.42:885][751]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level
+[2017.10.12-11.21.42:961][751]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076628s)
+[2017.10.12-11.21.42:962][751]LogAIModule: Creating AISystem for world Level
+[2017.10.12-11.21.42:962][751]LogPlayLevel: PIE: World Init took: (0.000900s)
+[2017.10.12-11.21.42:962][751]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Blueprints/Level.Level to /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level (0.077739s)
+[2017.10.12-11.21.42:997][751]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-11.21.43:009][751]LogInit: FAudioDevice initialized.
+[2017.10.12-11.21.43:045][751]LogLoad: Game class is 'MyGameMode_C'
+[2017.10.12-11.21.43:048][751]LogWorld: Bringing World /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2017.10.12-18.21.43
+[2017.10.12-11.21.43:049][751]LogWorld: Bringing up level for play took: 0.002804
+[2017.10.12-11.21.43:050][751]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level 0.039
+[2017.10.12-11.21.50:290][557]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.21.50:376][564]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PlatformSprite)
+[2017.10.12-11.21.52:177][774]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PlatformSprite)
+[2017.10.12-11.21.52:277][783]LogEditorViewport: Clicking on Actor (double click): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.21.53:051][872]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.21.53:168][883]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PlatformSprite)
+[2017.10.12-11.22.03:277][ 16]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.22.03:996][ 97]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.22.05:224][241]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.22.05:692][294]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.22.05:767][300]LogEditorViewport: Clicking on Component (LMB): BillboardComponent (Billboard)
+[2017.10.12-11.23.35:950][356]LogEditorActor: Deleted Actor: MovingPlatformBP_C
+[2017.10.12-11.23.35:988][356]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2017.10.12-11.23.51:024][ 28]LogSavePackage: Save=32.21ms
+[2017.10.12-11.23.51:024][ 28]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Level8BE2197D401E9580E9B2E58D4F61A3A9.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap'
+[2017.10.12-11.23.51:028][ 28]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap
+[2017.10.12-11.23.52:555][182]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.12-11.23.52:577][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-11.23.52:577][182]PIE: New page: PIE session: Level (Oct 13, 2017, 1:23:52 AM)
+[2017.10.12-11.23.52:577][182]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level
+[2017.10.12-11.23.52:579][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001877s)
+[2017.10.12-11.23.52:580][182]LogAIModule: Creating AISystem for world Level
+[2017.10.12-11.23.52:580][182]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2017.10.12-11.23.52:580][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Blueprints/Level.Level to /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level (0.003120s)
+[2017.10.12-11.23.52:616][182]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-11.23.52:627][182]LogInit: FAudioDevice initialized.
+[2017.10.12-11.23.52:661][182]LogLoad: Game class is 'MyGameMode_C'
+[2017.10.12-11.23.52:664][182]LogWorld: Bringing World /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2017.10.12-18.23.52
+[2017.10.12-11.23.52:665][182]LogWorld: Bringing up level for play took: 0.003057
+[2017.10.12-11.23.52:667][182]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level -0.344
+[2017.10.12-11.24.18:550][230]LogEditorViewport: Clicking Background
+[2017.10.12-11.24.19:154][300]LogEditorViewport: Clicking Background
+[2017.10.12-11.24.19:245][310]LogEditorViewport: Clicking Background
+[2017.10.12-11.24.19:779][374]LogEditorViewport: Clicking Background
+[2017.10.12-11.24.19:863][383]LogEditorViewport: Clicking Background
+[2017.10.12-11.24.20:488][458]LogEditorViewport: Clicking Background
+[2017.10.12-11.24.20:564][466]LogEditorViewport: Clicking Background
+[2017.10.12-11.24.23:592][829]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.24.39:904][667]LogEditorViewport: Clicking Background
+[2017.10.12-11.24.43:888][141]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.24.57:487][665]LogSavePackage: Save=29.25ms
+[2017.10.12-11.24.57:487][665]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/LevelCE99DE2C48240CC40D4F569C287EB17D.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap'
+[2017.10.12-11.24.57:493][665]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap
+[2017.10.12-11.24.59:304][860]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.12-11.24.59:324][860]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-11.24.59:324][860]PIE: New page: PIE session: Level (Oct 13, 2017, 1:24:59 AM)
+[2017.10.12-11.24.59:324][860]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level
+[2017.10.12-11.24.59:326][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001930s)
+[2017.10.12-11.24.59:327][860]LogAIModule: Creating AISystem for world Level
+[2017.10.12-11.24.59:327][860]LogPlayLevel: PIE: World Init took: (0.000985s)
+[2017.10.12-11.24.59:327][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Blueprints/Level.Level to /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level (0.003198s)
+[2017.10.12-11.24.59:367][860]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-11.24.59:379][860]LogInit: FAudioDevice initialized.
+[2017.10.12-11.24.59:414][860]LogLoad: Game class is 'MyGameMode_C'
+[2017.10.12-11.24.59:416][860]LogWorld: Bringing World /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2017.10.12-18.24.59
+[2017.10.12-11.24.59:417][860]LogWorld: Bringing up level for play took: 0.002816
+[2017.10.12-11.24.59:419][860]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level 0.408
+[2017.10.12-11.25.13:929][570]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.25.34:669][850]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.25.35:393][934]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.25.35:808][981]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.25.35:908][990]LogEditorViewport: Clicking on Component (LMB): BillboardComponent (Billboard)
+[2017.10.12-11.25.44:687][985]LogSavePackage: Save=27.80ms
+[2017.10.12-11.25.44:687][985]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Level57CE0EFD41E1D87CF2DEB9B7966DC41E.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap'
+[2017.10.12-11.25.44:692][985]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap
+[2017.10.12-11.25.46:580][195]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.12-11.25.46:600][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-11.25.46:600][195]PIE: New page: PIE session: Level (Oct 13, 2017, 1:25:46 AM)
+[2017.10.12-11.25.46:600][195]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level
+[2017.10.12-11.25.46:602][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001970s)
+[2017.10.12-11.25.46:603][195]LogAIModule: Creating AISystem for world Level
+[2017.10.12-11.25.46:603][195]LogPlayLevel: PIE: World Init took: (0.001011s)
+[2017.10.12-11.25.46:603][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Blueprints/Level.Level to /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level (0.003314s)
+[2017.10.12-11.25.46:639][195]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-11.25.46:651][195]LogInit: FAudioDevice initialized.
+[2017.10.12-11.25.46:682][195]LogLoad: Game class is 'MyGameMode_C'
+[2017.10.12-11.25.46:684][195]LogWorld: Bringing World /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2017.10.12-18.25.46
+[2017.10.12-11.25.46:685][195]LogWorld: Bringing up level for play took: 0.002880
+[2017.10.12-11.25.46:687][195]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level -0.324
+[2017.10.12-11.26.00:720][850]LogEditorViewport: Clicking on Actor (LMB): MovingPlatformBP_C (MovingPlatformBP)
+[2017.10.12-11.26.08:772][696]LogSavePackage: Save=32.59ms
+[2017.10.12-11.26.08:772][696]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Level3B6EC28B4A9C2829BB5F6F8911BE827E.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap'
+[2017.10.12-11.26.08:778][696]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/Level.umap
+[2017.10.12-11.26.10:098][824]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.12-11.26.10:123][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-11.26.10:123][824]PIE: New page: PIE session: Level (Oct 13, 2017, 1:26:10 AM)
+[2017.10.12-11.26.10:123][824]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level
+[2017.10.12-11.26.10:125][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002002s)
+[2017.10.12-11.26.10:126][824]LogAIModule: Creating AISystem for world Level
+[2017.10.12-11.26.10:126][824]LogPlayLevel: PIE: World Init took: (0.000980s)
+[2017.10.12-11.26.10:126][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Blueprints/Level.Level to /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level (0.003346s)
+[2017.10.12-11.26.10:171][824]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-11.26.10:187][824]LogInit: FAudioDevice initialized.
+[2017.10.12-11.26.10:224][824]LogLoad: Game class is 'MyGameMode_C'
+[2017.10.12-11.26.10:227][824]LogWorld: Bringing World /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2017.10.12-18.26.10
+[2017.10.12-11.26.10:228][824]LogWorld: Bringing up level for play took: 0.003768
+[2017.10.12-11.26.10:230][824]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level -0.781
+[2017.10.12-11.26.16:835][583]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.12-11.26.16:855][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.12-11.26.16:855][583]PIE: New page: PIE session: Level (Oct 13, 2017, 1:26:16 AM)
+[2017.10.12-11.26.16:855][583]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level
+[2017.10.12-11.26.16:857][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001752s)
+[2017.10.12-11.26.16:857][583]LogAIModule: Creating AISystem for world Level
+[2017.10.12-11.26.16:857][583]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2017.10.12-11.26.16:858][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Blueprints/Level.Level to /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level (0.002837s)
+[2017.10.12-11.26.16:901][583]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.12-11.26.16:911][583]LogInit: FAudioDevice initialized.
+[2017.10.12-11.26.16:943][583]LogLoad: Game class is 'MyGameMode_C'
+[2017.10.12-11.26.16:945][583]LogWorld: Bringing World /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2017.10.12-18.26.16
+[2017.10.12-11.26.16:946][583]LogWorld: Bringing up level for play took: 0.002996
+[2017.10.12-11.26.16:948][583]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Blueprints/UEDPIE_0_Level -0.063
+[2017.10.12-11.26.32:910][ 82]LogSavePackage: Save=74.29ms
+[2017.10.12-11.26.32:910][ 82]LogSavePackage: Moving '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/MovingPlatformBP09B41B1A466847AD86F6F39948BE7C19.tmp' to '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset'
+[2017.10.12-11.26.32:914][ 82]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/2DSideScrollerBP/Blueprints/MovingPlatformBP.uasset
+[2017.10.12-11.26.33:264][ 83]Cmd: QUIT_EDITOR
+[2017.10.12-11.26.33:938][ 83]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.12-11.26.33:992][ 83]LogExit: Preparing to exit.
+[2017.10.12-11.26.34:849][ 83]LogDirectoryWatcher: A directory notification for 'C:/Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/' was aborted.
+[2017.10.12-11.26.34:964][ 83]LogExit: Editor shut down
+[2017.10.12-11.26.34:998][ 83]LogExit: Transaction tracking system shut down
+[2017.10.12-11.26.35:236][ 83]LogObj: Freed 0b from 0 cluster array pools.
+[2017.10.12-11.26.35:238][ 83]LogExit: Object subsystem successfully closed.
+[2017.10.12-11.26.35:274][ 83]LogD3D11RHI: Shutdown
+[2017.10.12-11.26.35:274][ 83]LogD3D11RHI: CleanupD3DDevice
+[2017.10.12-11.26.35:437][ 83]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.12-11.26.35:512][ 83]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2017.10.12-11.26.35:512][ 83]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.10.12-11.26.35:512][ 83]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.10.12-11.26.35:513][ 83]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.10.12-11.26.35:513][ 83]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.10.12-11.26.35:513][ 83]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.10.12-11.26.35:513][ 83]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.10.12-11.26.35:513][ 83]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Unreal rar/UE_4.16/FeaturePacks/' was aborted.
+[2017.10.12-11.26.35:522][ 83]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.10.12-11.26.35:522][ 83]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.10.12-11.26.35:522][ 83]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.10.12-11.26.35:522][ 83]LogDirectoryWatcher: A directory notification for 'C:/Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/Collections/' was aborted.
+[2017.10.12-11.26.35:522][ 83]LogDirectoryWatcher: A directory notification for 'C:/Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/Developers/rifkiadrn/Collections/' was aborted.
+[2017.10.12-11.26.35:522][ 83]LogDirectoryWatcher: A directory notification for 'C:/Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Saved/Collections/' was aborted.
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.10.12-11.26.35:523][ 83]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.10.12-11.26.35:524][ 83]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.10.12-11.26.35:524][ 83]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.10.12-11.26.35:524][ 83]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.10.12-11.26.35:524][ 83]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.10.12-11.26.35:524][ 83]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.10.12-11.26.35:524][ 83]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.10.12-11.26.35:524][ 83]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.10.12-11.26.35:524][ 83]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.10.12-11.26.35:524][ 83]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.10.12-11.26.35:524][ 83]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.10.12-11.26.35:524][ 83]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.10.12-11.26.35:524][ 83]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.10.12-11.26.35:524][ 83]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.10.12-11.26.35:524][ 83]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.10.12-11.26.35:940][ 83]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.10.12-11.26.35:940][ 83]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.10.12-11.26.35:940][ 83]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.10.12-11.26.35:940][ 83]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.10.12-11.26.35:940][ 83]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.10.12-11.26.35:940][ 83]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.10.12-11.26.35:940][ 83]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.10.12-11.26.35:940][ 83]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.10.12-11.26.35:940][ 83]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.10.12-11.26.35:941][ 83]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.10.12-11.26.35:941][ 83]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.10.12-11.26.35:941][ 83]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.10.12-11.26.35:941][ 83]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.10.12-11.26.35:941][ 83]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.10.12-11.26.35:941][ 83]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.10.12-11.26.35:941][ 83]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.10.12-11.26.35:941][ 83]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.10.12-11.26.35:941][ 83]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.10.12-11.26.35:941][ 83]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.10.12-11.26.35:941][ 83]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.10.12-11.26.35:941][ 83]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.10.12-11.26.35:941][ 83]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.10.12-11.26.35:941][ 83]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.10.12-11.26.35:941][ 83]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.10.12-11.26.36:005][ 83]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.10.12-11.26.36:005][ 83]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.10.12-11.26.36:005][ 83]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.10.12-11.26.36:005][ 83]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.10.12-11.26.36:005][ 83]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.10.12-11.26.36:005][ 83]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.10.12-11.26.36:005][ 83]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.10.12-11.26.36:005][ 83]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.10.12-11.26.36:005][ 83]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.10.12-11.26.36:005][ 83]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.10.12-11.26.36:016][ 83]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.10.12-11.26.36:016][ 83]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.10.12-11.26.36:016][ 83]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.10.12-11.26.36:016][ 83]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.10.12-11.26.36:016][ 83]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.10.12-11.26.36:016][ 83]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.10.12-11.26.36:016][ 83]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.10.12-11.26.36:017][ 83]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.10.12-11.26.36:017][ 83]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.10.12-11.26.36:017][ 83]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.10.12-11.26.36:017][ 83]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.10.12-11.26.36:018][ 83]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.10.12-11.26.36:018][ 83]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.10.12-11.26.36:018][ 83]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.10.12-11.26.36:018][ 83]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.10.12-11.26.36:018][ 83]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.10.12-11.26.36:018][ 83]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.10.12-11.26.36:018][ 83]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.10.12-11.26.36:018][ 83]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.10.12-11.26.36:018][ 83]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.10.12-11.26.36:250][ 83]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.10.12-11.26.36:251][ 83]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.10.12-11.26.36:251][ 83]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.10.12-11.26.36:251][ 83]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.10.12-11.26.36:251][ 83]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.10.12-11.26.36:251][ 83]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.10.12-11.26.36:251][ 83]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.10.12-11.26.36:251][ 83]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.10.12-11.26.36:251][ 83]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.10.12-11.26.36:251][ 83]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.10.12-11.26.36:352][ 83]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.10.12-11.26.36:453][ 83]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.10.12-11.26.36:453][ 83]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.10.12-11.26.36:453][ 83]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.10.12-11.26.36:453][ 83]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.10.12-11.26.36:453][ 83]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.10.12-11.26.36:453][ 83]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.10.12-11.26.36:456][ 83]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.10.12-11.26.36:456][ 83]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.10.12-11.26.36:456][ 83]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.10.12-11.26.36:456][ 83]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.10.12-11.26.36:456][ 83]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.10.12-11.26.36:456][ 83]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.10.12-11.26.36:456][ 83]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.10.12-11.26.36:456][ 83]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.10.12-11.26.36:457][ 83]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.10.12-11.26.36:457][ 83]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.10.12-11.26.36:457][ 83]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.10.12-11.26.36:457][ 83]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.10.12-11.26.36:457][ 83]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.10.12-11.26.36:457][ 83]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.10.12-11.26.36:457][ 83]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.10.12-11.26.36:457][ 83]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.10.12-11.26.36:457][ 83]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.10.12-11.26.36:457][ 83]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.10.12-11.26.36:457][ 83]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.10.12-11.26.36:457][ 83]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.10.12-11.26.36:457][ 83]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.10.12-11.26.36:457][ 83]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.10.12-11.26.36:457][ 83]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.10.12-11.26.36:462][ 83]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.10.12-11.26.36:462][ 83]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.10.12-11.26.36:462][ 83]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.10.12-11.26.36:462][ 83]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.10.12-11.26.36:462][ 83]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.10.12-11.26.36:462][ 83]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.10.12-11.26.36:686][ 83]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.12-11.26.36:686][ 83]LogDirectoryWatcher: A directory notification for '../../../../../../Users/rifkiadrn/Documents/Unreal Projects/Tutorial2GameDev/Content/' was aborted.
+[2017.10.12-11.26.36:686][ 83]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.12-11.26.36:686][ 83]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.10.12-11.26.36:694][ 83]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.10.12-11.26.36:702][ 83]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.10.12-11.26.36:702][ 83]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.10.12-11.26.36:702][ 83]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.10.12-11.26.36:702][ 83]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.10.12-11.26.36:702][ 83]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.10.12-11.26.36:702][ 83]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.10.12-11.26.36:702][ 83]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.10.12-11.26.36:702][ 83]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.12-11.26.36:731][ 83]LogDerivedDataCache: Shutdown
+[2017.10.12-11.26.36:731][ 83]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.12-11.26.36:731][ 83]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.12-11.26.36:732][ 83]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.12-11.26.36:732][ 83]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.12-11.26.36:732][ 83]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.12-11.26.36:732][ 83]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.12-11.26.36:732][ 83]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.12-11.26.36:732][ 83]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.12-11.26.36:732][ 83]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.12-11.26.36:732][ 83]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.12-11.26.36:732][ 83]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.12-11.26.36:732][ 83]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.12-11.26.36:732][ 83]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.12-11.26.36:732][ 83]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.12-11.26.36:732][ 83]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.12-11.26.36:732][ 83]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.12-11.26.36:732][ 83]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.12-11.26.36:733][ 83]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.12-11.26.36:733][ 83]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.12-11.26.36:733][ 83]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.12-11.26.36:733][ 83]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.12-11.26.36:733][ 83]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.12-11.26.36:733][ 83]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.12-11.26.36:733][ 83]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.12-11.26.36:733][ 83]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.12-11.26.36:733][ 83]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.12-11.26.36:733][ 83]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.12-11.26.36:733][ 83]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.12-11.26.36:733][ 83]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.12-11.26.36:733][ 83]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.12-11.26.36:733][ 83]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.12-11.26.36:733][ 83]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.12-11.26.36:733][ 83]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.12-11.26.36:734][ 83]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.12-11.26.36:734][ 83]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.12-11.26.36:734][ 83]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.12-11.26.36:734][ 83]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.12-11.26.36:734][ 83]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.12-11.26.36:734][ 83]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.12-11.26.36:734][ 83]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.12-11.26.36:734][ 83]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.12-11.26.36:734][ 83]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.12-11.26.36:734][ 83]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.12-11.26.36:734][ 83]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.10.12-11.26.36:734][ 83]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.10.12-11.26.36:734][ 83]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.10.12-11.26.36:734][ 83]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.12-11.26.36:734][ 83]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.12-11.26.36:734][ 83]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.12-11.26.36:734][ 83]LogOnline:Display: Unloading online subsystem: NULL
+[2017.10.12-11.26.36:734][ 83]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.12-11.26.36:734][ 83]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.12-11.26.36:734][ 83]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.12-11.26.36:734][ 83]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF836045B-46E8-D06F-38DC-5A9822191CD9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=77028a7847445427ba921f816a2c5f83%7C591b0f86681142679c7ce5ad85b1059a%7C7d36cb8c-10b2-4c52-bd77-5cf9760b728e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.12-11.26.36:764][ 83]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.12-11.26.36:766][ 83]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.10.12-11.26.36:767][ 83]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.10.12-11.26.36:767][ 83]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.10.12-11.26.36:767][ 83]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.10.12-11.26.36:767][ 83]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.10.12-11.26.36:767][ 83]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.10.12-11.26.36:767][ 83]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.10.12-11.26.36:767][ 83]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.10.12-11.26.36:774][ 83]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.10.12-11.26.36:774][ 83]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.10.12-11.26.36:774][ 83]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.10.12-11.26.36:774][ 83]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.10.12-11.26.36:774][ 83]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.10.12-11.26.36:774][ 83]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.10.12-11.26.36:774][ 83]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.10.12-11.26.36:774][ 83]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.12-11.26.36:774][ 83]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.12-11.26.36:774][ 83]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.12-11.26.36:776][ 83]LogExit: Exiting.
+[2017.10.12-11.26.36:801][ 83]Log file closed, 10/12/17 18:26:36
